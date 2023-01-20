@@ -49,6 +49,6 @@ switch (randomNumber) {
 };
 
 // Prints response if a question was asked
-userQuestion ? console.log(eightBall) : console.log()
+userQuestion ? console.log(eightBall) : console.log();
 
 
