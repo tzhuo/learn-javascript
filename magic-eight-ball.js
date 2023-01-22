@@ -8,7 +8,7 @@ userName ? console.log(`Hello, ${userName}!`) : console.log('Hello!');
 let userQuestion = '';
 
 // Magic Eight Ball repeats the question
-userQuestion ? console.log(`You asked \'${userQuestion}\', is that right?`) : console.log('Please ask a question.');
+let eightBallConfirmQuestion = userQuestion ? console.log(`You asked \'${userQuestion}\', is that right?`) : console.log('Please ask a question.');
 
 // Creating a random number between 0 (inclusive) and 8 (exclusive)
 let randomNumber = Math.floor(Math.random() * 8);
@@ -49,6 +49,6 @@ switch (randomNumber) {
 };
 
 // Prints response if a question was asked
-userQuestion ? console.log(eightBall) : console.log();
+userQuestion ? console.log(eightBall) : console.log()
 
 
