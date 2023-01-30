@@ -2,7 +2,7 @@
 let userName = 'Tina';
 
 // This greets anyone, preferably by name
-userName ? console.log(`Hello, ${userName}!`) : console.log('Hello!');
+console.log(userName ? `Hello ${userName}!` : ‘Hello!’);
 
 // The user may ask the Magic Eight Ball a question... 
 let userQuestion = '';
@@ -49,4 +49,6 @@ switch (randomNumber) {
 };
 
 // Prints response if a question was asked
-userQuestion ? console.log(eightBall) : console.log();
+if (userQuestion) {
+  console.log(eightBall)
+};
